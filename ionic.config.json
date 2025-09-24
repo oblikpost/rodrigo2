@@ -1,0 +1,7 @@
+{
+  "name": "novoRodrigoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
