@@ -1,0 +1,27 @@
+/* Estiliza a barra de topo (header) */
+ion-toolbar {
+  --background: #FCD961; // Fundo amarelo
+  --color: #000; // Texto preto
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+/* Garante que o texto dentro do container seja preto */
+.welcome-container h1,
+.welcome-container p {
+  color: #000;
+}
+
+/* Como .action-button é global, o botão de logout já pegou o estilo.
+   Podemos apenas adicionar uma margem se quisermos.
+*/
+.action-button {
+  margin-top: 20px;
+}

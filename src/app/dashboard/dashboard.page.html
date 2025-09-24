@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding yellow-background">
+  
+  <div class="welcome-container">
+    <h1>{{ mensagemAleatoria }}</h1>
+    
+    <p>Você está logado no sistema.</p>
+
+    <ion-button (click)="logout()" expand="block" shape="round" class="action-button">
+      Sair (Logout)
+    </ion-button>
+  </div>
+
+</ion-content>
